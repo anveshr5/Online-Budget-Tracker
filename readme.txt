@@ -2,7 +2,7 @@ Hello!
 
 This a guide to simple expense manager created by Satya Anvesh Ranganadham as a part Internshala's training project.
 
-Please download the entire 'Balance.zip' folder to the 'www' folder present in the 'wamp64' of your computer.
+Please download the entire contents into a folder called Balance and place this folder in the 'www' folder present in the 'wamp64' of your computer.
 Create a database named 'budgettracker' in phpmyadmin
 Import the 'budgettracker.sql' into budgettracker database before running the website 
 I have included the MySQLi structure in 'buggettracker.sql' file, It has the following contents:

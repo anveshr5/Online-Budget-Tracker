@@ -1,0 +1,164 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.navbar {
+  margin-bottom: 0px;
+}
+
+@media (min-width: 300px) {
+
+  .imageright img,
+  .imageleft img {
+    width: 200px;
+  }
+
+  .textleft {
+    padding: 15px;
+    color: white;
+  }
+
+  .imageright {
+    padding: 15px;
+    display: block;
+  }
+
+  .textright {
+    padding: 15px;
+  }
+
+  .imageleft {
+    padding: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 500px) {
+
+  .imageright img,
+  .imageleft img {
+    width: 300px;
+  }
+
+  .textleft {
+    padding: 15px;
+    color: white;
+  }
+
+  .imageright {
+    padding: 15px;
+  }
+
+  .textright {
+    padding: 15px;
+  }
+
+  .imageleft {
+    padding: 15px;
+  }
+}
+
+
+@media (min-width: 768px) {
+
+  .imageright img,
+  .imageleft img {
+    margin-top: 50px;
+    width: 250px;
+  }
+
+  .textleft {
+    padding: 50px;
+    float: left;
+    color: white;
+    width: 400px;
+  }
+
+  .imageright {
+    padding: 50px;
+    float: right;
+  }
+
+  .textright {
+    padding: 50px;
+    float: right;
+    width: 400px;
+  }
+
+  .imageleft {
+    padding: 50px;
+    float: left;
+  }
+}
+
+@media (min-width: 992px) {
+
+  .imageright img,
+  .imageleft img {
+    width: 300px;
+  }
+
+  .textleft {
+    margin-top: 50px;
+    padding: 50px;
+    float: left;
+    color: white;
+    width: 580px;
+  }
+
+  .imageright {
+    padding: 50px;
+    float: right;
+  }
+
+  .textright {
+    margin-top: 50px;
+    padding: 50px;
+    float: right;
+    width: 580px;
+  }
+
+  .imageleft {
+    padding: 50px;
+    float: left;
+  }
+}
+
+@media (min-width: 1200px) {
+
+  .imageright img,
+  .imageleft img {
+    width: 400px;
+  }
+
+  .textleft {
+    margin-top: 50px;
+    padding: 50px;
+    float: left;
+    color: white;
+    width: 700px;
+  }
+
+  .imageright {
+    padding: 50px;
+    float: right;
+  }
+
+  .textright {
+    margin-top: 50px;
+    padding: 50px;
+    float: right;
+    width: 700px;
+  }
+
+  .imageleft {
+    padding: 50px;
+    float: left;
+  }
+}

@@ -1,0 +1,58 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-image: url(../images/index_bg.jpg);
+}
+
+.panel-footer {
+    background: #ffffff00;
+}
+
+.panel-heading h4 {
+    font-size: 22px;
+    margin-left: 15px;
+}
+
+.panel-footer a {
+    text-decoration: none;
+
+    color: white;
+}
+
+.button {
+    padding: 5px;
+    width: 50%;
+    margin-left: 5px;
+    border-radius: 30px;
+    background: #142852;
+    color: white;
+
+}
+
+.button:hover {
+    border-radius: 30px;
+    background: #14285299;
+    box-shadow: 9px 9px 24px #0a142a,
+        -9px -9px 24px #1e3c7a;
+}
+
+.panelwidth {
+    color: white;
+    margin-top: 4%;
+    margin-bottom: 60px;
+    background: #14285299;
+    box-shadow: 9px 9px 24px #0a142a55,
+        -9px -9px 24px #1e3c7a55;
+}
+
+@media(min-width: 768px) {
+    .panelwidth {
+        width: 35%;
+        float: right;
+        margin-bottom: 20px;
+        margin-right: 60px;
+    }
+}

@@ -1,0 +1,60 @@
+<head>
+    <style>
+        .navbar {
+            background-color: #142852;
+            border-radius: 0;
+
+        }
+
+        .navbar-toggle .icon-bar,
+        .navbar-toggle {
+            border: 1px solid white;
+        }
+
+        .navbar-brand {
+            color: white;
+        }
+
+        .nav a {
+            color: white;
+        }
+
+        li>a:hover {
+            color: #142852;
+        }
+
+        .logo {
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar expand-lg">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <img src="../images/logo.png" class="logo" width="30" height="30" alt="Logo">
+                <a href="../homepage/homepage.php" class="navbar-brand">&#8383;alance</a>
+            </div>
+            <div id="myNavbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar">
+                    <li><a href="../profile/profile.php"><span class="glyphicon glyphicon-user"></span> Profile</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="../aboutus/aboutus.php"><span class="glyphicon glyphicon-info-sign"></span> About
+                            Us</a></li>
+                    <li><a href="../changepassword/changepassword.php"><span class="glyphicon glyphicon-cog"></span>
+                            Change
+                            Password</a></li>
+                    <li><a href="../includes/user_log_out.php"><span class="glyphicon glyphicon-log-out"></span>Log out</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</body>
